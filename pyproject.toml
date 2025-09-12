@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "pybind11>=2.6.0", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyperfit"
+version = "0.1.0"
+description = "A comprehensive Python library for fitting hyperelastic and Mullins effect material models"
+readme = "README.md"
+authors = [
+    {name = "HyperFit Contributors"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "pytest-cov",
+    "black",
+    "flake8",
+    "mypy",
+]
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme",
+    "matplotlib",
+]
+plotting = [
+    "matplotlib>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/hyperfit/hyperfit"
+Documentation = "https://hyperfit.readthedocs.io"
+Repository = "https://github.com/hyperfit/hyperfit"
+Issues = "https://github.com/hyperfit/hyperfit/issues"
+
+[tool.setuptools]
+packages = ["hyperfit", "hyperfit.models", "hyperfit.strategies"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "--cov=hyperfit --cov-report=term-missing"
